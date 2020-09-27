@@ -31,7 +31,7 @@ My research interests include intelligent software quality assurance, context ma
 ###### **Journal**
 
 - <font color=blue>[JSS2020]</font>Yicheng Huang, [Chang Xu](https://cs.nju.edu.cn/changxu/), [Yanyan Jiang](http://ics.nju.edu.cn/%7Ejyy/), **Huiyan Wang**, and Da Li. WARDER: Towards Effective Spreadsheet Defect Detection by Validity-based Cell Cluster Refinements. *The Journal of Systems and Software (JSS)*, Vol. 167, Article 110615, pp. 1-19, Sep 2020, to appear. [[pdf](./publications/JSS_2020.pdf)]<font color=red>[CCF-B]</font>
-- <font color=blue>[JoS2020]</font>**Huiyan Wang**, [Jingwei Xu](http://ics.nju.edu.cn/people/jingweixu/), and [Chang Xu](https://cs.nju.edu.cn/changxu/). Survey on Runtime Input Validation for Context-aware Adaptive Software (环境感知自适应软件的运行时输入验证技术综述). *Journal of Computer Science (计算机科学)*, Jun 2020, to appear.[[pdf](./publications/JOS_2020.pdf)]<font color=red>[中文CCF-B]</font>
+- <font color=blue>[JCS2020]</font>**Huiyan Wang**, [Jingwei Xu](http://ics.nju.edu.cn/people/jingweixu/), and [Chang Xu](https://cs.nju.edu.cn/changxu/). Survey on Runtime Input Validation for Context-aware Adaptive Software (环境感知自适应软件的运行时输入验证技术综述). *Journal of Computer Science (计算机科学)*, Jun 2020, to appear.[[pdf](./publications/JCS_2020.pdf)]<font color=red>[中文CCF-B]</font>
 - <font color=blue>[TSE2020]</font>**Huiyan Wang**, [Chang Xu](https://cs.nju.edu.cn/changxu/), Bingying Guo, [Xiaoxing Ma](http://ics.nju.edu.cn/people/xiaoxingma/), and Jian Lu, “Generic Adaptive Scheduling for Efficient Context Inconsistency Detection”, *IEEE Transactions on Software Engineering*, to appear.[[pdf](./publications/TSE_2020.pdf)]<font color=red>[CCF-A]</font>
 
 ###### **Conference**
