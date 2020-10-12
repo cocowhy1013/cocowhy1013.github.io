@@ -1,0 +1,523 @@
+<!doctype html>
+<html style='font-size:16px !important'>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>homepage_why</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit inherit; background-repeat: inherit inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) { 
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.701961); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror-linenumber { }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit inherit; background-repeat: inherit inherit; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; background-repeat: initial initial; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print { 
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid-page; break-before: avoid-page; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid-page; }
+  .typora-export #write::after { height: 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; background-position: initial initial; background-repeat: initial initial; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) { 
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; }
+a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom-width: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+svg[id^="mermaidChart"] { line-height: 1em; }
+mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); background-position: initial initial; background-repeat: initial initial; }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    padding-bottom: .3em;
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+   padding-bottom: .3em;
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border-top: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table tr th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr th:first-child,
+table tr td:first-child {
+    margin-top: 0;
+}
+table tr th:last-child,
+table tr td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+.html-for-mac .context-menu {
+    --item-hover-bg-color: #E6F0FE;
+}
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+
+</style>
+</head>
+<body class='typora-export' >
+<div  id='write'  class = 'is-mac'><h3><a name="img-srcpicwhy-balijpg-altwhy-bali-stylefloat-left-zoom12-" class="md-header-anchor"></a><img src="pic/why-bali.jpg" alt="why-bali" style="float: left; zoom:12%;" /></h3><p><span>         </span><font size=6><strong><span>Huiyan Wang (王慧妍)</span></strong></font></p><p><span>          </span><font size=4; color=DarkBlue><strong><span>Ph.D. student, SPAR Group, Nanjing University (2015~now)</span></strong></font></p><p><span>          </span><font size=3><strong><span>Email:</span></strong><span> cocowhy1013 </span><em><span>at</span></em><span> gmail </span><em><span>dot</span></em><span> com</span></font></p><p><span>          </span><font size=3><strong><span>Address:</span></strong><span> Room 813, Building of Computer Science and Technology, </span></font></p><p><span>                            </span><font size=3><span>Nanjing University (Xianlin Campus)</span></font></p><h5><a name="tabletrtd-bgcolorlightsalmon-font-size4biobriefbio-research-interestsresearchinterests-publicationspublications-honors--awardshonorsandawards-academic-servicesacademic-teaching-experiencesteaching-hobbieshobbies-tdtrtable" class="md-header-anchor"></a><table><tr><td bgcolor=LightSalmon><span> </span><font size=4><span>[</span><strong><a href='#BriefBio'><span>Bio</span></a></strong><span>] [</span><strong><a href='#researchinterests'><span>Research Interests</span></a></strong><span>] [</span><strong><a href='#publications'><span>Publications</span></a></strong><span>] [</span><strong><a href='#honorsandawards'><span>Honors &amp; Awards</span></a></strong><span>] [</span><strong><a href='#academic'><span>Academic Services</span></a></strong><span>] [</span><strong><a href='#teaching'><span>Teaching Experiences</span></a></strong><span>] [</span><strong><a href='#hobbies'><span>Hobbies</span></a></strong><span>] </span></td></tr></table></h5><h4><a name="font-colorcrimsonspan-idnewsnewsspanfont" class="md-header-anchor"></a><font color=Crimson><span id="news"><em><span>News:</span></em></span></font></h4><p><img src="pic/news-icon2.png" alt="news-icon2" style="float: left; zoom:60%;" /><span>  </span><em><font color=Crimson><strong><u><span>Our paper has been accepted by ICSE2020. Congratulations!</span></u></strong></font></em></p><p><span> </span><img src="pic/news-icon2.png" alt="news-icon2" style="float: left; zoom:60%;" /><span> </span><em><font color=Crimson><strong><u><span>Our paper has been accepted by JSS2020. Congratulations!</span></u></strong></font></em></p><h4><a name="tabletrtd-bgcolorpowderbluespan-idbriefbiobiospantdtrtable" class="md-header-anchor"></a><table><tr><td bgcolor=PowderBlue><span id="BriefBio"><span>Bio</span></span></td></tr></table></h4><p><span>I was born in Taizhou, Jiangsu, China in 1993. I received my Bachelor degree in computer science from </span><a href='https://www.nju.edu.cn'><span>Nanjing University</span></a><span>, Jiangsu, China in July 2015. Since September of 2015, I began to pursue my Ph.D. degree for software engineering under the supervision of associate researcher </span><a href='http://ics.nju.edu.cn/people/jingweixu/'><span>Jingwei Xu</span></a><span> and </span><a href='https://cs.nju.edu.cn/changxu/'><span>Prof. Chang Xu</span></a><span>, at the </span><a href='http://ics.nju.edu.cn'><span>Institute of Computer Science (ICS)</span></a><span>, </span><a href='https://keysoftlab.nju.edu.cn'><span>State Key Laboratory for Novel Software Technology</span></a><span>, </span><a href='https://cs.nju.edu.cn'><span>Department of Computer Science and Technology</span></a><span>, Nanjing University. I am also a member of </span><a href='http://ics.nju.edu.cn/spar/'><span>System &amp; Program Analysis Research Group (SPAR group)</span></a><span> at ICS.</span></p><h4><a name="tabletrtd-bgcolorpowderbluespan-idresearchinterestsresearch-interestsspantdtrtable" class="md-header-anchor"></a><table><tr><td bgcolor=PowderBlue><strong><span id="researchinterests"><span>Research Interests</span></span></strong></td></tr></table></h4><p><span>My research interests include intelligent software quality assurance, context management, software analyses and testing.</span></p><h4><a name="tabletrtd-bgcolorpowderbluespan-idpublicationspublications&nbsp;spanchronological-ordertdtrtable" class="md-header-anchor"></a><table><tr><td bgcolor=PowderBlue><span id="publications"><span>Publications </span></span><span>(chronological order)</span></td></tr></table><span> </span></h4><h6><a name="journal" class="md-header-anchor"></a><strong><span>Journal</span></strong></h6><ul><li><font color=blue><span>[JSS2020]</span></font><span>Yicheng Huang, </span><a href='https://cs.nju.edu.cn/changxu/'><span>Chang Xu</span></a><span>, </span><a href='http://ics.nju.edu.cn/%7Ejyy/'><span>Yanyan Jiang</span></a><span>, </span><strong><span>Huiyan Wang</span></strong><span>, and Da Li. WARDER: Towards Effective Spreadsheet Defect Detection by Validity-based Cell Cluster Refinements. </span><em><span>The Journal of Systems and Software (JSS)</span></em><span>, Vol. 167, Article 110615, pp. 1-19, Sep 2020, to appear. [</span><a href='publications/JSS_2020.pdf'><span>pdf</span></a><span>]</span><font color=red><span>[CCF-B]</span></font></li><li><font color=blue><span>[JoS2020]</span></font><strong><span>Huiyan Wang</span></strong><span>, </span><a href='http://ics.nju.edu.cn/people/jingweixu/'><span>Jingwei Xu</span></a><span>, and </span><a href='https://cs.nju.edu.cn/changxu/'><span>Chang Xu</span></a><span>. Survey on Runtime Input Validation for Context-aware Adaptive Software (环境感知自适应软件的运行时输入验证技术综述). </span><em><span>Journal of Computer Science (计算机科学)</span></em><span>, Jun 2020, to appear.[</span><a href='publications/JOS_2020.pdf'><span>pdf</span></a><span>]</span><font color=red><span>[中文CCF-B]</span></font></li><li><font color=blue><span>[TSE2020]</span></font><strong><span>Huiyan Wang</span></strong><span>, </span><a href='https://cs.nju.edu.cn/changxu/'><span>Chang Xu</span></a><span>, Bingying Guo, </span><a href='http://ics.nju.edu.cn/people/xiaoxingma/'><span>Xiaoxing Ma</span></a><span>, and Jian Lu, “Generic Adaptive Scheduling for Efficient Context Inconsistency Detection”, </span><em><span>IEEE Transactions on Software Engineering</span></em><span>, to appear.[</span><a href='publications/TSE_2020.pdf'><span>pdf</span></a><span>]</span><font color=red><span>[CCF-A]</span></font></li></ul><h6><a name="conference" class="md-header-anchor"></a><strong><span>Conference</span></strong></h6><ul><li><font color=blue><span>[ICSE2020]</span></font><strong><span>Huiyan Wang</span></strong><span>, </span><a href='http://ics.nju.edu.cn/people/jingweixu/'><span>Jingwei Xu</span></a><span>, </span><a href='https://cs.nju.edu.cn/changxu/'><span>Chang Xu</span></a><span>, </span><a href='http://ics.nju.edu.cn/people/xiaoxingma/'><span>Xiaoxing Ma</span></a><span>, and Jian Lu, “DISSECTOR: Input Validation for Deep Learning Applications by Crossing-layer Dissection”, in </span><em><span>Proceedings of the 42nd ACM/IEEE International Conference on Software Engineering (ICSE)</span></em><span>, to appear, 2020.(acceptance rate: 20.9%)[</span><a href='publications/ICSE_2020.pdf'><span>pdf</span></a><span>]</span><font color=red><span>[CCF-A]</span></font></li><li><font color=blue><span>[ASE2019]</span></font><span>Da Li, </span><strong><span>Huiyan Wang</span></strong><span>, </span><a href='https://cs.nju.edu.cn/changxu/'><span>Chang Xu</span></a><span>, Ruiqing Zhang, </span><a href='http://home.cse.ust.hk/~scc/'><span>Shing-Chi Cheung</span></a><span>, and </span><a href='http://ics.nju.edu.cn/people/xiaoxingma/'><span>Xiaoxing Ma</span></a><span>, “SGUARD: A Feature-based Clustering Tool for Effective Spreadsheet Defect Detection”, in </span><em><span>Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE Tool Demo)</span></em><span>, 1142–1145, 2019.(acceptance rate: 53.7%)[</span><a href='publications/ASE_2019-demo.pdf'><span>pdf</span></a><span>]</span><font color=red><span>[CCF-A]</span></font></li><li><font color=blue><span>[APSEC2019]</span></font><span>Ziqi Chen, </span><strong><span>Huiyan Wang</span></strong><span>, </span><a href='https://cs.nju.edu.cn/changxu/'><span>Chang Xu</span></a><span>, </span><a href='http://ics.nju.edu.cn/people/xiaoxingma/'><span>Xiaoxing Ma</span></a><span>, and </span><a href='https://ccao.cc/en/'><span>Chun Cao</span></a><span>, “Vision: Evaluating Scenario Suitableness for DNN Models by Mirror Synthesis”, in </span><em><span>Proceedings of the 26th Asia-Pacific Software Engineering Conference (APSEC)</span></em><span>, 78–85, 2019.(acceptance rate: 34.7%)[</span><a href='publications/APSEC_2019.pdf'><span>pdf</span></a><span>]</span><font color=red><span>[CCF-C]</span></font></li><li><font color=blue><span>[QRS2019]</span></font><span>Da Li, </span><strong><span>Huiyan Wang</span></strong><span>, </span><a href='https://cs.nju.edu.cn/changxu/'><span>Chang Xu</span></a><span>, Fengmin Shi, </span><a href='http://ics.nju.edu.cn/people/xiaoxingma/'><span>Xiaoxing Ma</span></a><span>, and Jian Lu, “WARDER: Refining Cell Clustering for Effective Spreadsheet Defect Detection via Validity Properties”, in </span><em><span>2019 IEEE 19th International Conference on Software Quality, Reliability and Security (QRS)</span></em><span>, 139–150, 2019.[</span><a href='publications/QRS_2019.pdf'><span>pdf</span></a><span>]</span><font color=red><span>[CCF-C]</span></font></li><li><font color=blue><span>[QRS2018]</span></font><span>Yi Qin, </span><strong><span>Huiyan Wang</span></strong><span>, </span><a href='https://cs.nju.edu.cn/changxu/'><span>Chang Xu</span></a><span>, </span><a href='http://ics.nju.edu.cn/people/xiaoxingma/'><span>Xiaoxing Ma</span></a><span>, and Jian Lu, “SynEva: Evaluating ML Programs by Mirror Program Synthesis”, in </span><em><span>2018 IEEE International Conference on Software Quality, Reliability and Security (QRS)</span></em><span>, 171–182, 2018.(acceptance rate: 22.3%)[</span><a href='publications/QRS_2018.pdf'><span>pdf</span></a><span>]</span><font color=red><span>[CCF-C]</span></font></li><li><font color=blue><span>[ICSME2017]</span></font><span>Bingying Guo, </span><strong><span>Huiyan Wang</span></strong><span>, </span><a href='https://cs.nju.edu.cn/changxu/'><span>Chang Xu</span></a><span>, and Jian Lu, “GEAS: Generic Adaptive Scheduling for High-efficiency Context Inconsistency Detection”, in </span><em><span>2017 IEEE International Conference on Software Maintenance and Evolution (ICSME)</span></em><span>, 137–147, 2017.(acceptance rate: 27.8%)[</span><a href='publications/ICSME_2017.pdf'><span>pdf</span></a><span>]-[</span><a href='publications/ICSME_2017_slides.pdf'><span>slides</span></a><span>]</span><font color=red><span>[CCF-B]</span></font></li><li><font color=blue><span>[QRS2016]</span></font><strong><span>Huiyan Wang</span></strong><span>, </span><a href='https://cs.nju.edu.cn/changxu/'><span>Chang Xu</span></a><span>, Jun Sui, and Jian Lu, “How effective is branch-based combinatorial testing? An exploratory study”, in </span><em><span>Proceedings of the 2016 IEEE International Conference on Software Quality, Reliability and Security (QRS2016)</span></em><span>, 41–52, 2016.(acceptance rate: 29.1%)[</span><a href='publications/QRS_2016.pdf'><span>pdf</span></a><span>]</span><font color=red><span>[CCF-C]</span></font></li></ul><h4><a name="tabletrtd-bgcolorpowderbluespan-idhonorsandawardshonors-and-awardsspantdtrtable" class="md-header-anchor"></a><table><tr><td bgcolor=PowderBlue><span id="honorsandawards"><span>Honors and Awards</span></span></td></tr></table></h4><ul><li><span>Artificial Intelligence Scolarship 人工智能奖学金 (Nanjing University, 2019)</span></li><li><span>Tung OOCL Scholarship 董氏东方奖学金 (Nanjing University, 2018)</span></li><li><span>Outstanding Graduate of Nanjing University (Nanjing University, 2015)</span></li></ul><h4><a name="tabletrtd-bgcolorpowderbluespan-idacademicacademic-servicesspantdtrtable" class="md-header-anchor"></a><table><tr><td bgcolor=PowderBlue><span id="academic"><span>Academic Services</span></span></td></tr></table></h4><ul><li><span>Subreviewer: TheWebConf 2020, ASONAM 2019</span></li></ul><h4><a name="tabletrtd-bgcolorpowderbluespan-idteachingteaching-experiencesspantdtrtable" class="md-header-anchor"></a><table><tr><td bgcolor=PowderBlue><span id="teaching"><span>Teaching Experiences</span></span></td></tr></table></h4><ul><li><span>TA for Guidance to Software Engineering Research (2018 Fall)</span></li><li><span>TA for Principle and Techniques of Compilers (2017 Spring)</span></li><li><span>TA for Guidance to Software Engineering Research (2016 Fall)</span></li><li><span>TA for Principle and Techniques of Compilers (2016 Spring)</span></li><li><span>TA for Guidance to Software Engineering Research (2015 Fall)</span></li></ul><h4><a name="tabletrtd-bgcolorpowderbluespan-idhobbieshobbiesspantdtrtable" class="md-header-anchor"></a><table><tr><td bgcolor=PowderBlue><span id="hobbies"><span>Hobbies</span></span></td></tr></table></h4><p><span>I love travelling and taking photos. Also, I quite enjoy watching comedy episodes, and I am a big fan of Friends, TBBT, and Modern Family. Welcome to chat with me about anything.</span></p><hr /><p><font size=2><span>Last updated by Huiyan on 2020/06/10.</span></font></p><p>&nbsp;</p><p>&nbsp;</p></div>
+</body>
+</html>
