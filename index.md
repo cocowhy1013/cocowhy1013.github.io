@@ -23,20 +23,20 @@
  <img src="./pic/news-icon2.png" alt="news-icon2" style="float: left; zoom:60%;" /> *<font color=Crimson>**<u>Our paper has been accepted by JSS2020. Congratulations!</u>**</font>*
 
 
-#### Bio
+#### <span id="BriefBio">Bio</span>
 <div style='display: none'>
 #### <table><tr><td bgcolor=PowderBlue><span id="BriefBio">Bio</span></td></tr></table>
 </div>
 
 I was born in Taizhou, Jiangsu, China in 1993. I received my Bachelor degree in computer science from [Nanjing University](https://www.nju.edu.cn), Jiangsu, China in July 2015. Since September of 2015, I began to pursue my Ph.D. degree for software engineering under the supervision of associate researcher [Jingwei Xu](http://ics.nju.edu.cn/people/jingweixu/) and [Prof. Chang Xu](https://cs.nju.edu.cn/changxu/), at the [Institute of Computer Science (ICS)](http://ics.nju.edu.cn), [State Key Laboratory for Novel Software Technology](https://keysoftlab.nju.edu.cn), [Department of Computer Science and Technology](https://cs.nju.edu.cn), Nanjing University. I am also a member of [System & Program Analysis Research Group (SPAR group)](http://ics.nju.edu.cn/spar/) at ICS.
 
-#### Research Interests
+#### <span id="researchinterests">Research Interests</span>
 <div style='display: none'>
 #### <table><tr><td bgcolor=PowderBlue>**<span id="researchinterests">Research Interests</span>**</td></tr></table>
 </div>
 My research interests include intelligent software quality assurance, context management, software analyses and testing.
 
-#### Publications (chronological order)
+#### <span id="publications">Publications </span> (chronological order)
 <div style='display: none'>
 ####<table><tr><td bgcolor=PowderBlue><span id="publications">Publications </span>(chronological order)</td></tr></table> 
 </div>
@@ -57,7 +57,7 @@ My research interests include intelligent software quality assurance, context ma
 - <font color=blue>[ICSME2017]</font>Bingying Guo, **Huiyan Wang**, [Chang Xu](https://cs.nju.edu.cn/changxu/), and Jian Lu, “GEAS: Generic Adaptive Scheduling for High-efficiency Context Inconsistency Detection”, in *2017 IEEE International Conference on Software Maintenance and Evolution (ICSME)*, 137–147, 2017.(acceptance rate: 27.8%)[[pdf](./publications/ICSME_2017.pdf)]-[[slides](./publications/ICSME_2017_slides.pdf)]<font color=red>[CCF-B]</font>
 - <font color=blue>[QRS2016]</font>**Huiyan Wang**, [Chang Xu](https://cs.nju.edu.cn/changxu/), Jun Sui, and Jian Lu, “How effective is branch-based combinatorial testing? An exploratory study”, in *Proceedings of the 2016 IEEE International Conference on Software Quality, Reliability and Security (QRS2016)*, 41–52, 2016.(acceptance rate: 29.1%)[[pdf](./publications/QRS_2016.pdf)]<font color=red>[CCF-C]</font>
 
-#### Honors and Awards
+#### <span id="honorsandawards">Honors and Awards</span>
 <div style='display: none'>
 #### <table><tr><td bgcolor=PowderBlue><span id="honorsandawards">Honors and Awards</span></td></tr></table>
 </div>
@@ -65,14 +65,14 @@ My research interests include intelligent software quality assurance, context ma
 - Tung OOCL Scholarship 董氏东方奖学金 (Nanjing University, 2018)
 - Outstanding Graduate of Nanjing University (Nanjing University, 2015)
 
-#### Academic Services
+#### <span id="academic">Academic Services</span>
 <div style='display: none'>
 #### <table><tr><td bgcolor=PowderBlue><span id="academic">Academic Services</span></td></tr></table>
 </div>
 
 - Subreviewer: TheWebConf 2020, ASONAM 2019
 
-#### Teaching Experiences
+#### <span id="teaching">Teaching Experiences</span>
 <div style='display: none'>
 #### <table><tr><td bgcolor=PowderBlue><span id="teaching">Teaching Experiences</span></td></tr></table>
 </div>
@@ -83,7 +83,7 @@ My research interests include intelligent software quality assurance, context ma
 - TA for Principle and Techniques of Compilers (2016 Spring)
 - TA for Guidance to Software Engineering Research (2015 Fall)
  
-#### Hobbies
+#### <span id="hobbies">Hobbies</span>
 <div style='display: none'>
 #### <table><tr><td bgcolor=PowderBlue><span id="hobbies">Hobbies</span></td></tr></table>
 </div>
