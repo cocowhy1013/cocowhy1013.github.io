@@ -1,4 +1,4 @@
-###             <img src="./pic/why-bali.jpg" alt="why-bali" style="float: left; zoom:10%;" />
+###             <img src="./pic/why-bali.jpg" alt="why-bali" style="float: left; zoom:11.5%;" />
 
 ​         <font size=6>**Huiyan Wang (王慧妍)**</font>
 
@@ -76,6 +76,7 @@ My research interests include intelligent software quality assurance, context ma
 <div style='display: none'>
 #### <table><tr><td bgcolor=PowderBlue><span id="teaching">Teaching Experiences</span></td></tr></table>
 </div>
+
 - TA for Guidance to Software Engineering Research (2018 Fall)
 - TA for Principle and Techniques of Compilers (2017 Spring)
 - TA for Guidance to Software Engineering Research (2016 Fall)
