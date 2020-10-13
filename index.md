@@ -18,9 +18,9 @@
 
 #### <font color=Crimson><span id="news">*News:*</span></font>
 
-<img src="./pic/news-icon2.png" alt="news-icon2" style="float: left; zoom:60%;" />  *<font color=Crimson>**<u>Our paper has been accepted by ICSE2020. Congratulations!</u>**</font>*
+<img src="./pic/news-icon2.png" alt="news-icon2" style="float: left; zoom:60%;" />  *<font color=Crimson><u>*Our paper has been accepted by ICSE2020. Congratulations!*</u></font>*
 
- <img src="./pic/news-icon2.png" alt="news-icon2" style="float: left; zoom:60%;" /> *<font color=Crimson>**<u>Our paper has been accepted by JSS2020. Congratulations!</u>**</font>*
+ <img src="./pic/news-icon2.png" alt="news-icon2" style="float: left; zoom:60%;" /> <font color=Crimson><u>*Our paper has been accepted by JSS2020. Congratulations!*</u></font>
 
 
 #### <span id="BriefBio">Bio</span>
