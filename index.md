@@ -18,7 +18,7 @@
 
 #### <font color=Crimson><span id="news">*News:*</span></font>
 
-<img src="./pic/news-icon2.png" alt="news-icon2" style="float: left; zoom:60%;" />  *<font color=Crimson><u>*Our paper has been accepted by ICSE2020. Congratulations!*</u></font>*
+<img src="./pic/news-icon2.png" alt="news-icon2" style="float: left; zoom:60%;" />  <font color=Crimson><u>*Our paper has been accepted by ICSE2020. Congratulations!*</u></font>
 
  <img src="./pic/news-icon2.png" alt="news-icon2" style="float: left; zoom:60%;" /> <font color=Crimson><u>*Our paper has been accepted by JSS2020. Congratulations!*</u></font>
 
@@ -61,6 +61,7 @@ My research interests include intelligent software quality assurance, context ma
 <div style='display: none'>
 #### <table><tr><td bgcolor=PowderBlue><span id="honorsandawards">Honors and Awards</span></td></tr></table>
 </div>
+
 - Artificial Intelligence Scolarship 人工智能奖学金 (Nanjing University, 2019)
 - Tung OOCL Scholarship 董氏东方奖学金 (Nanjing University, 2018)
 - Outstanding Graduate of Nanjing University (Nanjing University, 2015)
