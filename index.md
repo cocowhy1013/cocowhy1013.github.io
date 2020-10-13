@@ -82,7 +82,7 @@ My research interests include intelligent software quality assurance, context ma
 - TA for Guidance to Software Engineering Research (2016 Fall)
 - TA for Principle and Techniques of Compilers (2016 Spring)
 - TA for Guidance to Software Engineering Research (2015 Fall)
-
+ 
 #### Hobbies
 <div style='display: none'>
 #### <table><tr><td bgcolor=PowderBlue><span id="hobbies">Hobbies</span></td></tr></table>
