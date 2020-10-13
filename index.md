@@ -1,4 +1,4 @@
-###             <img src="./pic/why-bali.jpg" alt="why-bali" style="float: left; zoom:12%;" />
+###             <img src="./pic/why-bali.jpg" alt="why-bali" style="float: left; zoom:10%;" />
 
 ​         <font size=6>**Huiyan Wang (王慧妍)**</font>
 
@@ -10,11 +10,12 @@
 
 ​                            <font size=3>Nanjing University (Xianlin Campus)</font>
 
-[**[Bio](#BriefBio)**] [**[Research Interests](#researchinterests)**] [**[Publications](#publications)**] [**[Honors & Awards](#honorsandawards)**] [**[Academic Services](#academic)**] [**[Teaching Experiences](#teaching)**] [**[Hobbies](#hobbies)**]
+[**[Bio](#BriefBio)**] [**[Research Interests](#researchinterests)**] [**[Publications](#publications)**] [**[Honors & Awards](#honorsandawards)**] [**[Academic Services](#academic)**] [**[Teaching Experiences](#teaching)**] 
 
 <div style='display: none'>
 ##### <table><tr><td bgcolor=LightSalmon> <font size=2>[**[Bio](#BriefBio)**] [**[Research Interests](#researchinterests)**] [**[Publications](#publications)**] [**[Honors & Awards](#honorsandawards)**] [**[Academic Services](#academic)**] [**[Teaching Experiences](#teaching)**] [**[Hobbies](#hobbies)**] </td></tr></table>
 </div>
+
 #### <font color=Crimson><span id="news">*News:*</span></font>
 
 <img src="./pic/news-icon2.png" alt="news-icon2" style="float: left; zoom:60%;" />  *<font color=Crimson>**<u>Our paper has been accepted by ICSE2020. Congratulations!</u>**</font>*
