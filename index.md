@@ -20,23 +20,23 @@
 <img src="./pic/news-icon2.png" alt="news-icon2" style="float: left; zoom:60%;" />  <font color=Crimson><u>*Our TSE paper has finally been published on March 2021. Congratulations!*</u></font>
 
 
-#### <span id="BriefBio">Bio</span>
+### <span id="BriefBio">Bio</span>
 
 I was born in Taizhou, Jiangsu, China in 1993. I received my Bachelor degree in computer science from [Nanjing University](https://www.nju.edu.cn), Jiangsu, China in July 2015. Since September of 2015, I began to pursue my Ph.D. degree for software engineering under the supervision of associate researcher [Jingwei Xu](http://ics.nju.edu.cn/people/jingweixu/) and [Prof. Chang Xu](https://cs.nju.edu.cn/changxu/), at the [Institute of Computer Science (ICS)](http://ics.nju.edu.cn), [State Key Laboratory for Novel Software Technology](https://keysoftlab.nju.edu.cn), [Department of Computer Science and Technology](https://cs.nju.edu.cn), Nanjing University. I am also a member of [System & Program Analysis Research Group (SPAR group)](http://ics.nju.edu.cn/spar/) at ICS.
 
-#### <span id="researchinterests">Research Interests</span>
+### <span id="researchinterests">Research Interests</span>
 
 My research interests include intelligent software quality assurance, context management, software analyses and testing.
 
-#### <span id="publications">Publications </span> (chronological order)
+### <span id="publications">Publications </span> (chronological order)
 
-##### **Journal**
+#### **Journal**
 
 - <font color=blue>[TSE2021]</font>**Huiyan Wang**, [Chang Xu](https://cs.nju.edu.cn/changxu/), Bingying Guo, [Xiaoxing Ma](http://ics.nju.edu.cn/people/xiaoxingma/), and Jian Lu, “Generic Adaptive Scheduling for Efficient Context Inconsistency Detection”, *IEEE Transactions on Software Engineering*, Vol. 47, Iss. 3, pp. 464-497, Mar 2021.[[pdf](./publications/TSE_2020.pdf)]<font color=red>[CCF-A]</font>
 - <font color=blue>[JSS2020]</font>Yicheng Huang, [Chang Xu](https://cs.nju.edu.cn/changxu/), [Yanyan Jiang](http://ics.nju.edu.cn/%7Ejyy/), **Huiyan Wang**, and Da Li. WARDER: Towards Effective Spreadsheet Defect Detection by Validity-based Cell Cluster Refinements. *The Journal of Systems and Software (JSS)*, Vol. 167, Article 110615, pp. 1-19, Sep 2020. [[pdf](./publications/JSS_2020.pdf)]<font color=red>[CCF-B]</font>
 - <font color=blue>[JCS2020]</font>**Huiyan Wang**, [Jingwei Xu](http://ics.nju.edu.cn/people/jingweixu/), and [Chang Xu](https://cs.nju.edu.cn/changxu/). Survey on Runtime Input Validation for Context-aware Adaptive Software (环境感知自适应软件的运行时输入验证技术综述). *Journal of Computer Science (计算机科学)*, Vol. 47, Iss. 6, pp. 1-7, Jun 2020.[[pdf](./publications/JCS_2020.pdf)]<font color=red>[中文CCF-B]</font>
 
-##### **Conference**
+#### **Conference**
 
 - <font color=blue>[ICSE2020]</font>**Huiyan Wang**, [Jingwei Xu](http://ics.nju.edu.cn/people/jingweixu/), [Chang Xu](https://cs.nju.edu.cn/changxu/), [Xiaoxing Ma](http://ics.nju.edu.cn/people/xiaoxingma/), and Jian Lu, “DISSECTOR: Input Validation for Deep Learning Applications by Crossing-layer Dissection”, in *Proceedings of the 42nd ACM/IEEE International Conference on Software Engineering (ICSE)*, pp. 727-738, Seoul, South Korea, May 2020.(acceptance rate: 20.9%)[[pdf](./publications/ICSE_2020.pdf)]<font color=red>[CCF-A]</font>
 - <font color=blue>[ASE2019]</font>Da Li, **Huiyan Wang**, [Chang Xu](https://cs.nju.edu.cn/changxu/), Ruiqing Zhang, [Shing-Chi Cheung](http://home.cse.ust.hk/~scc/), and [Xiaoxing Ma](http://ics.nju.edu.cn/people/xiaoxingma/), “SGUARD: A Feature-based Clustering Tool for Effective Spreadsheet Defect Detection”, in *Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE Tool Demo)*, 1142–1145, 2019.(acceptance rate: 53.7%)[[pdf](./publications/ASE_2019-demo.pdf)]<font color=red>[CCF-A]</font>
@@ -46,18 +46,18 @@ My research interests include intelligent software quality assurance, context ma
 - <font color=blue>[ICSME2017]</font>Bingying Guo, **Huiyan Wang**, [Chang Xu](https://cs.nju.edu.cn/changxu/), and Jian Lu, “GEAS: Generic Adaptive Scheduling for High-efficiency Context Inconsistency Detection”, in *2017 IEEE International Conference on Software Maintenance and Evolution (ICSME)*, 137–147, 2017.(acceptance rate: 27.8%)[[pdf](./publications/ICSME_2017.pdf)]-[[slides](./publications/ICSME_2017_slides.pdf)]<font color=red>[CCF-B]</font>
 - <font color=blue>[QRS2016]</font>**Huiyan Wang**, [Chang Xu](https://cs.nju.edu.cn/changxu/), Jun Sui, and Jian Lu, “How effective is branch-based combinatorial testing? An exploratory study”, in *Proceedings of the 2016 IEEE International Conference on Software Quality, Reliability and Security (QRS2016)*, 41–52, 2016.(acceptance rate: 29.1%)[[pdf](./publications/QRS_2016.pdf)]<font color=red>[CCF-C]</font>
 
-#### <span id="honorsandawards">Honors and Awards</span>
+### <span id="honorsandawards">Honors and Awards</span>
 
 - Artificial Intelligence Scolarship 人工智能奖学金 (Nanjing University, 2019)
 - Tung OOCL Scholarship 董氏东方奖学金 (Nanjing University, 2018)
 - Outstanding Graduate of Nanjing University (Nanjing University, 2015)
 
-#### <span id="academic">Academic Services</span>
+### <span id="academic">Academic Services</span>
 
 
 - Subreviewer: TheWebConf 2020, ASONAM 2019
 
-#### <span id="teaching">Teaching Experiences</span>
+### <span id="teaching">Teaching Experiences</span>
 
 
 - TA for Guidance to Software Engineering Research (2018 Fall)
@@ -66,7 +66,7 @@ My research interests include intelligent software quality assurance, context ma
 - TA for Principle and Techniques of Compilers (2016 Spring)
 - TA for Guidance to Software Engineering Research (2015 Fall)
  
-#### <span id="hobbies">Hobbies</span>
+### <span id="hobbies">Hobbies</span>
 
 I love travelling and taking photos. Also, I quite enjoy watching comedy episodes, and I am a big fan of Friends, TBBT, and Modern Family. Welcome to chat with me about anything.
 
