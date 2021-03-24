@@ -38,7 +38,7 @@ My research interests include intelligent software quality assurance, context ma
 
 #### **Conference**
 
-- <font color=blue>[ICSE2020]</font>**Huiyan Wang**, [Jingwei Xu](http://ics.nju.edu.cn/people/jingweixu/), [Chang Xu](https://cs.nju.edu.cn/changxu/), [Xiaoxing Ma](http://ics.nju.edu.cn/people/xiaoxingma/), and Jian Lu, “DISSECTOR: Input Validation for Deep Learning Applications by Crossing-layer Dissection”, in *Proceedings of the 42nd ACM/IEEE International Conference on Software Engineering (ICSE)*, pp. 727-738, Seoul, South Korea, May 2020.(acceptance rate: 20.9%)[[pdf](./publications/ICSE_2020.pdf)]<font color=red>[CCF-A]</font>
+- <font color=blue>[ICSE2020]</font>**Huiyan Wang**, [Jingwei Xu](http://ics.nju.edu.cn/people/jingweixu/), [Chang Xu](https://cs.nju.edu.cn/changxu/), [Xiaoxing Ma](http://ics.nju.edu.cn/people/xiaoxingma/), and Jian Lu, “DISSECTOR: Input Validation for Deep Learning Applications by Crossing-layer Dissection”, in *Proceedings of the 42nd ACM/IEEE International Conference on Software Engineering (ICSE)*, pp. 727-738, Seoul, South Korea, May 2020.(acceptance rate: 20.9%)[[pdf](./publications/ICSE_2020.pdf)] [[slides](./publications/ICSE_2020_slides.pdf)]<font color=red>[CCF-A]</font>
 - <font color=blue>[ASE2019]</font>Da Li, **Huiyan Wang**, [Chang Xu](https://cs.nju.edu.cn/changxu/), Ruiqing Zhang, [Shing-Chi Cheung](http://home.cse.ust.hk/~scc/), and [Xiaoxing Ma](http://ics.nju.edu.cn/people/xiaoxingma/), “SGUARD: A Feature-based Clustering Tool for Effective Spreadsheet Defect Detection”, in *Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE Tool Demo)*, 1142–1145, 2019.(acceptance rate: 53.7%)[[pdf](./publications/ASE_2019-demo.pdf)]<font color=red>[CCF-A]</font>
 - <font color=blue>[APSEC2019]</font>Ziqi Chen, **Huiyan Wang**, [Chang Xu](https://cs.nju.edu.cn/changxu/), [Xiaoxing Ma](http://ics.nju.edu.cn/people/xiaoxingma/), and [Chun Cao](https://ccao.cc/en/), “Vision: Evaluating Scenario Suitableness for DNN Models by Mirror Synthesis”, in *Proceedings of the 26th Asia-Pacific Software Engineering Conference (APSEC)*, 78–85, 2019.(acceptance rate: 34.7%)[[pdf](./publications/APSEC_2019.pdf)]<font color=red>[CCF-C]</font>
 - <font color=blue>[QRS2019]</font>Da Li, **Huiyan Wang**, [Chang Xu](https://cs.nju.edu.cn/changxu/), Fengmin Shi, [Xiaoxing Ma](http://ics.nju.edu.cn/people/xiaoxingma/), and Jian Lu, “WARDER: Refining Cell Clustering for Effective Spreadsheet Defect Detection via Validity Properties”, in *2019 IEEE 19th International Conference on Software Quality, Reliability and Security (QRS)*, 139–150, 2019.[[pdf](./publications/QRS_2019.pdf)]<font color=red>[CCF-C]</font>
@@ -72,7 +72,7 @@ I love travelling and taking photos. Also, I quite enjoy watching comedy episode
 
 ----
 
-<font size=2>Last updated by Huiyan on 2021/3/22.</font>
+<font size=2>Last updated by Huiyan on 2021/3/24.</font>
 
 
 
